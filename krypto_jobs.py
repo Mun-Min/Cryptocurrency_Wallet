@@ -5,7 +5,6 @@
 # customer in order to do the following:
 
 # * Generate a new Ethereum account instance by using your mnemonic seed phrase
-# (which you created earlier in the module).
 
 # * Fetch and display the account balance associated with your Ethereum account
 # address.
@@ -80,9 +79,7 @@ w3 = Web3(Web3.HTTPProvider("HTTP://127.0.0.1:7545"))
 # @TODO:
 # From `crypto_wallet.py import the functions generate_account, get_balance,
 #  and send_transaction
-from crypto_wallet import generate_account
-from crypto_wallet import get_balance 
-from crypto_wallet import send_transaction
+
 
 ################################################################################
 # KryptoJobs2Go Candidate Information
@@ -158,7 +155,7 @@ st.sidebar.markdown("## Client Account Address and Ethernet Balance in Ether")
 
 # @TODO:
 #  Call the `generate_account` function and save it as the variable `account`
-# YOUR CODE HERE
+
 
 ##########################################
 
@@ -169,7 +166,7 @@ st.sidebar.write(account.address)
 # Step 1 - Part 5:
 # Define a new `st.sidebar.write` function that will display the balance of the
 # customer’s account. Inside this function, call the `get_balance` function and
-#  pass it your Ethereum `account.address`.
+# pass it your Ethereum `account.address`.
 
 # @TODO
 # Call `get_balance` function and pass it your account address
