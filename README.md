@@ -2,6 +2,15 @@
 
 ![An image shows a wallet with bitcoin.](Images/19-4-challenge-image.png)
 
+## Table of Contents:
+
+1. [Streamlit Krypto Jobs Application Usage](#streamlit-krypto-jobs-application-usage)
+
+2. [Running the Streamlit Demo](#running-the-streamlit-demo)
+
+3. [App Usage Instructions](#app-usage-instructions--outputs)
+
+
 ### Background
 
 You work at a startup that is building a new and disruptive platform called KryptoJobs2Go. KryptoJobs2Go is an application that its customers can use to find fintech professionals from among a list of candidates, hire them, and pay them. As KryptoJobs2Go’s lead developer, you have been tasked with integrating the Ethereum blockchain network into the application in order to enable your customers to instantly pay the fintech professionals whom they hire with cryptocurrency.
@@ -116,9 +125,9 @@ https://user-images.githubusercontent.com/108703181/203880827-aa2be33f-bc1f-49e7
 
 * Using Python's Web3 package, I was able to integerate the Ethereum blockhain network into the application which was connected to a local blockchain-ledger on Ganache to test sending & receiving payments on the blockchain.
   
-* This application also utilizes Streamlit to display a clean user interface. The video snippet above demonstrates thhe usage of the application and displays how the user can send crypto currency payments to fintech professionals with just a few inputs. 
+* This application also utilizes Streamlit to display a clean user interface. The video snippet above demonstrates the usage of the application and displays how the user can send crypto currency payments to fintech professionals with just a few inputs. 
 
-Running the Streamlit Demo: 
+#### Running the Streamlit Demo: 
 
         Activate development environment that includes the following packages: 
 
@@ -139,7 +148,7 @@ Running the Streamlit Demo:
 
         [make sure to create an .env file holding your own local Ganache Blockchain Mnemonic Phrase]
 
-App Usage Instructions & Outputs: 
+#### App Usage Instructions & Outputs: 
 
 1. Select a Fintech Professional to hire
    
