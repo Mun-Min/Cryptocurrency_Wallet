@@ -108,6 +108,7 @@ Now it's time to put it all together and test the KryptoJobs2Go application with
 
 * Take a screenshot of the recipient’s address balance and history from your Ganache application. Save this screenshot to the README.md file of your GitHub repository for this Challenge assignment.
 
+## Streamlit Krypto Jobs Application Usage: 
 
 https://user-images.githubusercontent.com/108703181/203880827-aa2be33f-bc1f-49e7-aa83-a1344cb8ce54.mp4
 
