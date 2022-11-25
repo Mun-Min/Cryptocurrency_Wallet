@@ -1,4 +1,4 @@
-## Cryptocurrency Wallet
+## Developing a Cryptocurrency Wallet with Python Web3, Streamlit, and Ganache Local Blockchain
 
 ![An image shows a wallet with bitcoin.](Images/19-4-challenge-image.png)
 
