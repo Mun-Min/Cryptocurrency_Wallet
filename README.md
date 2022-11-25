@@ -123,7 +123,7 @@ https://user-images.githubusercontent.com/108703181/203880827-aa2be33f-bc1f-49e7
 
 * This application enables users who are in need of fintech professionals to hire and provide payment in crypto-currency.
 
-* Using Python's Web3 package, I was able to integerate the Ethereum blockhain network into the application which was connected to a local blockchain-ledger on Ganache to test sending & receiving payments on the blockchain.
+* Using Python's Web3 package, I was able to integerate the Ethereum blockchain network into the application which was connected to a local blockchain-ledger on Ganache to test sending & receiving payments on the blockchain.
   
 * This application also utilizes Streamlit to display a clean user interface. The video snippet above demonstrates the usage of the application and displays how the user can send crypto currency payments to fintech professionals with just a few inputs. 
 
