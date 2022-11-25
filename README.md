@@ -112,6 +112,57 @@ Now it's time to put it all together and test the KryptoJobs2Go application with
 
 https://user-images.githubusercontent.com/108703181/203880827-aa2be33f-bc1f-49e7-aa83-a1344cb8ce54.mp4
 
+* This application enables users who are in need of fintech professionals to hire and provide payment in crypto-currency.
+
+* Using Python's Web3 package, I was able to integerate the Ethereum blockhain network into the application which was connected to a local blockchain-ledger on Ganache to test sending & receiving payments on the blockchain.
+  
+* This application also utilizes Streamlit to display a clean user interface. The video snippet above demonstrates thhe usage of the application and displays how the user can send crypto currency payments to fintech professionals with just a few inputs. 
+
+Running the Streamlit Demo: 
+
+        Activate development environment that includes the following packages: 
+
+        conda activate <environment>
+
+        pip install bip44 
+        pip install web3==5.17
+        pip install eth-tester==0.5.0b3
+        pip install mnemonic
+
+        Download Ganache:
+        
+        https://trufflesuite.com/ganache/
+
+        Run Streamlit Demo: 
+
+        streamlit run krypto_jobs.py
+
+        [make sure to create an .env file holding your own local Ganache Blockchain Mnemonic Phrase]
+
+App Usage Instructions & Outputs: 
+
+1. Select a Fintech Professional to hire
+   
+2. Enter the number of hours you want to hire the Fintech Professional for 
+
+3. Review the output 
+
+   * Candidate Name, Hourly Rate, & Ethereum address
+   * Total Wage in Ether provided
+
+4. Click Send Transaction 
+
+5. Review the output
+
+   * Validated transaction hash 
+   * Open Ganache and review transaction output 
+     * Balance 
+     * Sender address
+     * To address 
+     * TX hash 
+     * Gas used 
+     * Value in ETH sent 
+
 ---
 
 © 2021 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
